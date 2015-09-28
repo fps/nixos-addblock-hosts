@@ -2,6 +2,8 @@
 
 { networking.extraHosts = ''
 
+# Comment by Florian Paul Schmidt: Removed some localhost entries.
+
 # This hosts file is brought to you by Dan Pollock and can be found at
 # http://someonewhocares.org/hosts/
 # You are free to copy and distribute this file for non-commercial uses,
@@ -70,15 +72,6 @@
 # redirecting any requests to that host to your own computer. For example
 # this will prevent your browser from downloading banner ads, or sending
 # your information back to a company.
-
-#<localhost>
-127.0.0.1	localhost
-127.0.0.1	localhost.localdomain
-255.255.255.255	broadcasthost
-::1		localhost
-127.0.0.1	local
-#fe80::1%lo0	localhost
-#</localhost>
 
 #<shock-sites>
 # For example, to block unpleasant pages, try:
