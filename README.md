@@ -1,7 +1,7 @@
 # nixos-addblock-hosts
 A nixos configuration file that you can import from configuration.nix to block common ad/tracker hosts
 
-Download this file to /nixos/configuration/hosts.nix and add it as import to your configuration.nix like this (example):
+Download <code>hosts.nix</code> to <code>/nixos/configuration/hosts.nix</code> and add it as import to your configuration.nix like this (example):
 
 <pre>
 # Edit this configuration file to define what should be installed on
